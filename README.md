@@ -8,9 +8,9 @@
 - 百度上很多搭建教程，可自行百度参考
 
 #### 拷贝并命名配置文件（Windows系统请用`copy`命令），启动：
-    ```
+```
     $ cd gogs-drone                                     # 进入项目目录
     $ cp env.sample .env                                # 复制环境变量文件
     $ cp docker-compose.sample.yml docker-compose.yml   # 复制 docker-compose 配置文件。
     $ docker-compose up                                 # 启动
-     ```
+```
